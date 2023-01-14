@@ -1,4 +1,3 @@
-<script type="text/javascript">
         let bg = document.getElementById("bg");
         let moon = document.getElementById("moon");
         let mountain = document.getElementById("mountain");
@@ -15,4 +14,3 @@
             text.style.top = value * 1 + 'px';
         
         })
-        </script>
