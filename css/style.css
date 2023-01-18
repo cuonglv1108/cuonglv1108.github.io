@@ -133,12 +133,19 @@ body {
      color: #333;
    }
    
-   .name {
-     position: absolute;
-     left:130px;
-     top:270px;
-     color: #333;
-     text-decoration: underline;
+   .button {
+    position: absolute;
+    left: 130px;
+    top: 270px;
+    border: none;
+    color: #333;
+    padding: 5px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
    }
    
    .back {
