@@ -50,10 +50,23 @@ section img{
 {
     position: relative;
     text-align: center;
+    display: flex;
     color: #fff;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
     font-size: 10em;
+    line-height: 1;
     z-index: 1;
+ 
 }
 #road{
     z-index: 2;
 }
+@media all and (max-width: 500px){
+    #text{
+        font-size: 5em;
+    }
+}
+
+    
