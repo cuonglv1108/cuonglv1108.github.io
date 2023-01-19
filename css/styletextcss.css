@@ -13,23 +13,23 @@
     left: 50px;
 }
 #text2{
-    top: 60px;
+    top: 67px;
     left: 50px;
 }
 #text3{
-    top: 90px;
+    top: 100px;
     left: 50px;
 }
 #text4{
-    top: 120px;
+    top: 135px;
     left: 50px;
 }
 #text5{
-    top: 180px;
+    top: 205px;
     left: 50px;
 }
 #text6{
-    top: 210px;
+    top: 245px;
     left: 50px;
 }
 @keyframes reveal{
@@ -42,24 +42,27 @@
 }
 @media all and (max-width: 500px){
         #text1{
+            top: 20px;
             left: 20px;
             font-size: 15px;
         }
         #text2{
+            top: 50px;
             left: 20px;
             font-size: 15px;
         }
         #text3{
+            top: 75px;
             left: 20px;
             font-size: 15px;
         }
         #text4{
-            top: 130px;
+            top: 120px;
             left: 20px;
             font-size: 15px;
         }
         #text5{
-            top: 228px;
+            top: 225px;
             left: 20px;
             font-size: 15px;
         }
