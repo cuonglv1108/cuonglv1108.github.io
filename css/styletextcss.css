@@ -1,0 +1,70 @@
+.paragragh span{
+    display: block;
+    position: absolute;
+    color: aquamarine;
+    font-size: 1.5em;
+    top: 0px;
+    left: 50px;
+    opacity: 0;
+    animation: reveal .5s forwards var(--delay);
+}
+#text1{
+    top: 30px;
+    left: 50px;
+}
+#text2{
+    top: 60px;
+    left: 50px;
+}
+#text3{
+    top: 90px;
+    left: 50px;
+}
+#text4{
+    top: 120px;
+    left: 50px;
+}
+#text5{
+    top: 180px;
+    left: 50px;
+}
+#text6{
+    top: 210px;
+    left: 50px;
+}
+@keyframes reveal{
+    from {translate: 0 20px;}
+    to 
+        { 
+            translate: none;
+            opacity: 1;
+        }
+}
+@media all and (max-width: 500px){
+        #text1{
+            left: 20px;
+            font-size: 15px;
+        }
+        #text2{
+            left: 20px;
+            font-size: 15px;
+        }
+        #text3{
+            left: 20px;
+            font-size: 15px;
+        }
+        #text4{
+            top: 130px;
+            left: 20px;
+            font-size: 15px;
+        }
+        #text5{
+            top: 228px;
+            left: 20px;
+            font-size: 15px;
+        }
+        #text6{
+            top: 245px;
+            left: 20px;
+        }
+    }
