@@ -44,30 +44,30 @@
         #text1{
             top: 20px;
             left: 20px;
-            font-size: 15px;
+            font-size: 13px;
         }
         #text2{
-            top: 50px;
+            top: 60px;
             left: 20px;
-            font-size: 15px;
+            font-size: 13px;
         }
         #text3{
-            top: 75px;
+            top: 90px;
             left: 20px;
-            font-size: 15px;
+            font-size: 13px;
         }
         #text4{
             top: 120px;
             left: 20px;
-            font-size: 15px;
+            font-size: 13px;
         }
         #text5{
-            top: 225px;
+            top: 195px;
             left: 20px;
-            font-size: 15px;
+            font-size: 13px;
         }
         #text6{
-            top: 245px;
+            top: 215px;
             left: 20px;
         }
     }
